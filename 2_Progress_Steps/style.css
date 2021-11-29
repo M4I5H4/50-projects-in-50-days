@@ -1,16 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?Muli&display=swap");
 
 * {
   box-sizing: border-box;
 }
 :root {
-  --line-border-fill: blue;
+  --line-border-fill: darkblue;
   --line-border-empty: lightgrey;
 }
 
 body {
   background-color: #f6f7fb;
-  font-family: "Muli", sans-serif;
+  font-family: "MuliRegular", sans-serif;
+  font-weight: normal;
+  font-style: normal;
   display: flex;
   align-items: center;
   justify-content: center;
