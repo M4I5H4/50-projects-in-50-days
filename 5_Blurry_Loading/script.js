@@ -14,6 +14,7 @@ function blurring() {
   }
   loadText.innerText = `${load}%`;
   loadText.style.opacity = scale(load,0,100,1,0);
+//   unblurrs the back grund starting form 30 px
   bg.style.filter = `blur(${scale(load, 0, 100, 30, 0)}px)`
 }
 //  how to get the opacity to match the 0%-100%
