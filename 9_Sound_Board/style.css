@@ -16,7 +16,9 @@ body {
   overflow: hidden;
   margin: 0;
 }
-
+h1 {
+  color: white;
+}
 .btn {
   background-color: rebeccapurple;
   border-radius: 5px;
